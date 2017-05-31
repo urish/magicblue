@@ -1,0 +1,23 @@
+{
+  "name": "magicblue",
+  "version": "0.1.0",
+  "description": "Control Magic Blue Bulbs using Web Bluetooth",
+  "main": "index.js",
+  "repository": "https://github.com/urish/magicblue",
+  "author": "Uri Shaked",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "@types/web-bluetooth": "^0.0.2"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "index.js.map"
+  ]
+}
